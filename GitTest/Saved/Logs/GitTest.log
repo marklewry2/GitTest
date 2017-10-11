@@ -358,3 +358,26 @@ LogInit: Object subsystem initialized
 [2017.10.11-03.36.08:171][559]SourceControl: Commited [master 704720a] Added a ball from original project.
 [2017.10.11-03.39.47:910][729]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
 [2017.10.11-03.39.47:967][729]EditorErrors: Warning: No assets to check in!
+[2017.10.11-03.51.59:523][186]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.51.59:524][186]LightingResults: New page: Lighting Build
+[2017.10.11-03.51.59:525][186]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.51.59:526][186]MapCheck: New page: Map Check
+[2017.10.11-03.51.59:526][186]LightingResults: New page: Lighting Build
+[2017.10.11-03.51.59:545][186]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.51.59:547][186]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.51.59:565][186]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.51.59:601][186]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.221ms to complete.
+[2017.10.11-03.51.59:602][186]LogFileHelpers: Loading map 'NewMap' took 0.079
+[2017.10.11-03.52.36:479][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.10.11-03.52.39:853][  6]LogActorFactory: Actor Factory created Sphere
+[2017.10.11-03.52.40:683][105]LogActorFactory: Actor Factory created Sphere
+[2017.10.11-03.52.49:265][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.11-03.52.49:296][116]LogSavePackage: Save=21.80ms
+[2017.10.11-03.52.49:296][116]LogSavePackage: Moving '../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Saved/NewMapCB24259C4009924E2E846C86677F7D29.tmp' to '../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/NewMap.umap'
+[2017.10.11-03.52.49:300][116]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/NewMap.umap
+[2017.10.11-03.52.49:308][116]LogFileHelpers: Saving map 'NewMap' took 0.079
+[2017.10.11-03.55.01:131][823]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.11-03.55.10:940][823]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.11-03.55.10:983][823]SourceControl: [master 48f31c1] added a sphere
+[2017.10.11-03.55.10:983][823]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.10.11-03.55.10:988][823]SourceControl: Commited [master 48f31c1] added a sphere.
