@@ -1,12 +1,12 @@
-﻿Log file open, 10/11/17 16:24:00
+﻿Log file open, 10/11/17 16:32:03
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: GitTest
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(810462590) SRandInit(810462590).
+LogInit: Display: RandInit(-1785243269) SRandInit(-1785243269).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165591
+LogStats: Stats thread started at 0.157129
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -103,160 +103,313 @@ LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.11-03.24.01:062][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.11-03.24.01:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.11-03.24.01:082][  0]LogInit: Computer: DESKTOP-ISFOQGD
-[2017.10.11-03.24.01:082][  0]LogInit: User: mark
-[2017.10.11-03.24.01:082][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.11-03.24.01:082][  0]LogInit: High frequency timer resolution =3.515623 MHz
-[2017.10.11-03.24.01:083][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.10.11-03.24.01:083][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.11-03.24.01:083][  0]LogMemory: Process Physical Memory: 278.55 MB used, 278.55 MB peak
-[2017.10.11-03.24.01:083][  0]LogMemory: Process Virtual Memory: 274.44 MB used, 274.44 MB peak
-[2017.10.11-03.24.01:083][  0]LogMemory: Physical Memory: 5782.07 MB used,  10533.93 MB free, 16316.00 MB total
-[2017.10.11-03.24.01:083][  0]LogMemory: Virtual Memory: 669.05 MB used,  10533.93 MB free, 134217728.00 MB total
-[2017.10.11-03.24.01:225][  0]LogInit: Using OS detected language (en-GB).
-[2017.10.11-03.24.01:225][  0]LogInit: Using OS detected locale (en-NZ).
-[2017.10.11-03.24.01:227][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.10.11-03.24.01:779][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.11-03.24.02:319][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.10.11-03.24.02:319][  0]LogD3D11RHI:       6084/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.11-03.24.02:320][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.11-03.24.02:320][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.11-03.24.02:320][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.11-03.24.02:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.11-03.24.02:326][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.11-03.24.02:326][  0]LogWindows: EnumDisplayDevices:
-[2017.10.11-03.24.02:326][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.10.11-03.24.02:326][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.11-03.24.02:326][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.11-03.24.02:326][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.10.11-03.24.02:326][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.10.11-03.24.02:326][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.10.11-03.24.02:326][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.10.11-03.24.02:326][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.10.11-03.24.02:326][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.11-03.24.02:815][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.11-03.24.02:843][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.11-03.24.02:893][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/Intermediate/Shaders/WorkingDirectory/13264/).
-[2017.10.11-03.24.02:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mark/AppData/Local/Temp/UnrealShaderWorkingDir/5CDC7ED14E2411FBCD7B19A5DFC79A78/'.
-[2017.10.11-03.24.02:893][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.11-03.24.03:756][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.11-03.24.03:796][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.11-03.24.03:841][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.11-03.24.03:907][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.11-03.24.03:961][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.11-03.24.04:000][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.11-03.24.04:037][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.11-03.24.04:074][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.11-03.24.04:106][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.11-03.24.04:143][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.11-03.24.04:202][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.11-03.24.04:244][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.11-03.24.04:281][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.11-03.24.04:317][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.11-03.24.04:352][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.11-03.24.04:425][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.11-03.24.04:425][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.11-03.24.04:453][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.11-03.24.04:528][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.11-03.24.04:571][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.11-03.24.04:626][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.11-03.24.04:704][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.11-03.24.04:740][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.11-03.24.04:776][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.11-03.24.04:776][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.11-03.24.05:151][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mark/Documents/Unreal Projects/GitTest/GitTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.11-03.24.05:239][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.11-03.24.05:252][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.11-03.24.05:263][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mark/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.11-03.24.05:271][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.11-03.24.05:272][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.11-03.24.05:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.11-03.24.05:272][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.11-03.24.05:490][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
-[2017.10.11-03.24.05:581][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.11-03.24.05:709][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.11-03.24.05:960][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.11-03.24.05:993][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.11-03.24.05:993][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.11-03.24.05:993][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.11-03.24.05:993][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.11-03.24.05:993][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.11-03.24.06:287][  0]LogNetVersion: GitTest , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3232388464)
-[2017.10.11-03.24.06:472][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.046267 seconds
-[2017.10.11-03.24.06:479][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.11-03.24.06:479][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2017.10.11-03.24.06:479][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.11-03.24.06:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.11-03.24.08:578][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.11-03.24.08:615][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.11-03.24.09:187][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.11-03.24.09:501][  0]SourceControl: Source control is disabled
-[2017.10.11-03.24.09:502][  0]SourceControl: Source control is disabled
-[2017.10.11-03.24.09:536][  0]SourceControl: Source control is disabled
-[2017.10.11-03.24.09:570][  0]SourceControl: Source control is disabled
-[2017.10.11-03.24.09:983][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.11-03.24.10:158][  0]LogOcInput: OculusInput pre-init called
-[2017.10.11-03.24.10:403][  0]LogEngine: Initializing Engine...
-[2017.10.11-03.24.10:404][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.11-03.24.10:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.11-03.24.10:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.11-03.24.10:740][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.11-03.24.10:746][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.10.11-03.24.10:757][  0]LogInit: FAudioDevice initialized.
-[2017.10.11-03.24.10:847][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.11-03.24.10:859][  0]LogInit: Texture streaming: Enabled
-[2017.10.11-03.24.10:954][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.11-03.24.11:120][  0]LogInit: Transaction tracking system initialized
-[2017.10.11-03.24.11:358][  0]BlueprintLog: New page: Editor Load
-[2017.10.11-03.24.12:141][  0]LocalizationService: Localization service is disabled
-[2017.10.11-03.24.12:760][  0]LogConsoleResponse: Display: 
-[2017.10.11-03.24.12:908][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/' took 0.01s
-[2017.10.11-03.24.12:908][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.11-03.24.12:908][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.11-03.24.12:909][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.11-03.24.13:831][  0]SourceControl: Source control is disabled
-[2017.10.11-03.24.13:831][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.11-03.24.13:832][  0]LightingResults: New page: Lighting Build
-[2017.10.11-03.24.13:862][  0]MapCheck: New page: Map Check
-[2017.10.11-03.24.13:862][  0]LightingResults: New page: Lighting Build
-[2017.10.11-03.24.14:003][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2017.10.11-03.24.14:008][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.11-03.24.14:017][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.11-03.24.14:052][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.879ms to complete.
-[2017.10.11-03.24.14:053][  0]LogFileHelpers: Loading map 'Template_Default' took 0.221
-[2017.10.11-03.24.14:136][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.11-03.24.14:215][  0]LogCollectionManager: Loaded 0 collections in 0.001155 seconds
-[2017.10.11-03.24.14:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest/GitTest/Saved/Collections/' took 0.01s
-[2017.10.11-03.24.14:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/Developers/mark/Collections/' took 0.01s
-[2017.10.11-03.24.14:282][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest/GitTest/Content/Collections/' took 0.01s
-[2017.10.11-03.24.14:282][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.11-03.24.14:289][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2386 classes and 500 folders.
-[2017.10.11-03.24.14:337][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.10.11-03.24.14:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.10.11-03.24.14:431][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.11-03.24.14:480][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 2 classes and 3 folders.
-[2017.10.11-03.24.14:486][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.11-03.24.14:488][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.11-03.24.14:490][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.11-03.24.14:590][  0]LogRenderer: Reallocating scene render targets to support 904x924 Format 10 NumSamples 1 (Frame:1).
-[2017.10.11-03.24.14:751][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.10.11-03.24.14:751][  0]LogLoad: (Engine Initialization) Total time: 15.10 seconds
-[2017.10.11-03.24.14:751][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.11-03.24.14:751][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.11-03.24.14:751][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.11-03.24.14:780][  0]LogAssetRegistry: Asset discovery search completed in 9.3118 seconds
-[2017.10.11-03.24.14:781][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.10.11-03.24.14:781][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
-[2017.10.11-03.24.14:784][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.11-03.32.04:383][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-03.32.04:384][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.11-03.32.04:415][  0]LogInit: Computer: DESKTOP-ISFOQGD
+[2017.10.11-03.32.04:415][  0]LogInit: User: mark
+[2017.10.11-03.32.04:415][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.11-03.32.04:415][  0]LogInit: High frequency timer resolution =3.515623 MHz
+[2017.10.11-03.32.04:416][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.11-03.32.04:416][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.11-03.32.04:416][  0]LogMemory: Process Physical Memory: 278.98 MB used, 278.98 MB peak
+[2017.10.11-03.32.04:416][  0]LogMemory: Process Virtual Memory: 282.47 MB used, 282.47 MB peak
+[2017.10.11-03.32.04:416][  0]LogMemory: Physical Memory: 5931.91 MB used,  10384.09 MB free, 16316.00 MB total
+[2017.10.11-03.32.04:416][  0]LogMemory: Virtual Memory: 677.05 MB used,  10384.09 MB free, 134217728.00 MB total
+[2017.10.11-03.32.04:561][  0]LogInit: Using OS detected language (en-GB).
+[2017.10.11-03.32.04:561][  0]LogInit: Using OS detected locale (en-NZ).
+[2017.10.11-03.32.04:564][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.10.11-03.32.05:107][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.11-03.32.05:664][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.10.11-03.32.05:664][  0]LogD3D11RHI:       6084/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.11-03.32.05:665][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.11-03.32.05:665][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.11-03.32.05:665][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.11-03.32.05:670][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.11-03.32.05:670][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.11-03.32.05:670][  0]LogWindows: EnumDisplayDevices:
+[2017.10.11-03.32.05:670][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.10.11-03.32.05:670][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.11-03.32.05:670][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.11-03.32.05:670][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.10.11-03.32.05:671][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.11-03.32.05:671][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.10.11-03.32.05:671][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.10.11-03.32.05:671][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.10.11-03.32.05:671][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.11-03.32.06:142][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.11-03.32.06:175][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.11-03.32.06:226][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Intermediate/Shaders/WorkingDirectory/1112/).
+[2017.10.11-03.32.06:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mark/AppData/Local/Temp/UnrealShaderWorkingDir/F930758C46E6668607DBC4A087520AFB/'.
+[2017.10.11-03.32.06:226][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.11-03.32.06:950][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.11-03.32.06:988][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.11-03.32.07:029][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.11-03.32.07:076][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.11-03.32.07:119][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.11-03.32.07:163][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.11-03.32.07:203][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.11-03.32.07:243][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.11-03.32.07:275][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.11-03.32.07:312][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.11-03.32.07:348][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.11-03.32.07:384][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.11-03.32.07:421][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.11-03.32.07:458][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.11-03.32.07:495][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.11-03.32.07:570][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.11-03.32.07:570][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.11-03.32.07:602][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.11-03.32.07:683][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.11-03.32.07:711][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.11-03.32.07:753][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.11-03.32.07:790][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.11-03.32.07:826][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.11-03.32.07:880][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.11-03.32.07:880][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.11-03.32.08:253][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.11-03.32.08:355][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.11-03.32.08:355][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.11-03.32.08:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.11-03.32.08:356][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.11-03.32.08:356][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.11-03.32.08:356][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.11-03.32.08:370][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.11-03.32.08:381][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mark/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.11-03.32.08:390][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.11-03.32.08:390][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.11-03.32.08:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-03.32.08:391][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.11-03.32.08:596][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2017.10.11-03.32.08:695][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.11-03.32.09:004][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.11-03.32.09:034][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.11-03.32.09:034][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.11-03.32.09:034][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.11-03.32.09:034][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.11-03.32.09:034][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.11-03.32.09:035][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.11-03.32.09:451][  0]LogNetVersion: GitTest , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3232388464)
+[2017.10.11-03.32.09:614][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034570 seconds
+[2017.10.11-03.32.09:619][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.11-03.32.09:619][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.11-03.32.09:619][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.11-03.32.09:665][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.11-03.32.11:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.11-03.32.11:775][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.11-03.32.12:301][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.11-03.32.12:626][  0]SourceControl: Source control is disabled
+[2017.10.11-03.32.12:626][  0]SourceControl: Source control is disabled
+[2017.10.11-03.32.12:677][  0]SourceControl: Source control is disabled
+[2017.10.11-03.32.12:713][  0]SourceControl: Source control is disabled
+[2017.10.11-03.32.13:328][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.11-03.32.13:499][  0]LogOcInput: OculusInput pre-init called
+[2017.10.11-03.32.13:690][  0]LogEngine: Initializing Engine...
+[2017.10.11-03.32.13:691][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.11-03.32.13:889][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.11-03.32.13:889][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.11-03.32.13:994][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.32.13:999][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.11-03.32.14:011][  0]LogInit: FAudioDevice initialized.
+[2017.10.11-03.32.14:099][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/mark/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.11-03.32.14:120][  0]LogInit: Texture streaming: Enabled
+[2017.10.11-03.32.14:206][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.11-03.32.14:384][  0]LogInit: Transaction tracking system initialized
+[2017.10.11-03.32.14:616][  0]BlueprintLog: New page: Editor Load
+[2017.10.11-03.32.15:285][  0]LocalizationService: Localization service is disabled
+[2017.10.11-03.32.15:822][  0]LogConsoleResponse: Display: 
+[2017.10.11-03.32.15:992][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/' took 0.01s
+[2017.10.11-03.32.15:992][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.11-03.32.15:992][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.11-03.32.15:992][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.11-03.32.16:807][  0]SourceControl: Source control is disabled
+[2017.10.11-03.32.16:807][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.32.16:807][  0]LightingResults: New page: Lighting Build
+[2017.10.11-03.32.16:838][  0]MapCheck: New page: Map Check
+[2017.10.11-03.32.16:838][  0]LightingResults: New page: Lighting Build
+[2017.10.11-03.32.16:981][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.11-03.32.16:986][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.32.16:996][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.32.17:032][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.257ms to complete.
+[2017.10.11-03.32.17:032][  0]LogFileHelpers: Loading map 'Template_Default' took 0.225
+[2017.10.11-03.32.17:156][  0]LogCollectionManager: Loaded 0 collections in 0.002150 seconds
+[2017.10.11-03.32.17:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Saved/Collections/' took 0.01s
+[2017.10.11-03.32.17:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/Developers/mark/Collections/' took 0.01s
+[2017.10.11-03.32.17:283][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/Collections/' took 0.01s
+[2017.10.11-03.32.17:283][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.11-03.32.17:293][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2386 classes and 500 folders.
+[2017.10.11-03.32.17:349][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.11-03.32.17:378][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.11-03.32.17:443][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.11-03.32.17:490][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
+[2017.10.11-03.32.17:496][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.11-03.32.17:498][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.11-03.32.17:500][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.11-03.32.17:605][  0]LogRenderer: Reallocating scene render targets to support 904x924 Format 10 NumSamples 1 (Frame:1).
+[2017.10.11-03.32.17:792][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.11-03.32.17:792][  0]LogLoad: (Engine Initialization) Total time: 14.79 seconds
+[2017.10.11-03.32.17:792][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.11-03.32.17:792][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.11-03.32.17:792][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.11-03.32.18:129][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.11-03.32.18:164][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.11-03.32.19:152][  3]LogAssetRegistry: Asset discovery search completed in 10.5775 seconds
+[2017.10.11-03.32.19:157][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.11-03.32.19:157][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000152 seconds (updated 0 objects)
+[2017.10.11-03.32.22:179][122]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-03.32.23:527][283]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-03.32.23:538][283]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.32.23:538][283]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.32.23:538][283]LoadErrors: Error: /Game/NewMap : Can't find file for asset. /Game/NewMap_BuiltData
+[2017.10.11-03.32.23:541][283]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.32.23:541][283]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.32.23:543][283]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.32.23:543][283]LoadErrors: Failed to load /Game/NewMap_BuiltData.NewMap_BuiltData Referenced by PersistentLevel
+[2017.10.11-03.32.23:543][283]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading NULL.
+[2017.10.11-03.32.23:549][283]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.32.23:562][283]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.32.23:562][283]LightingResults: New page: Lighting Build
+[2017.10.11-03.32.23:563][283]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.32.23:563][283]MapCheck: New page: Map Check
+[2017.10.11-03.32.23:563][283]LightingResults: New page: Lighting Build
+[2017.10.11-03.32.23:581][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.32.23:608][283]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.32.23:644][283]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.197ms to complete.
+[2017.10.11-03.32.23:644][283]LogFileHelpers: Loading map 'NewMap' took 0.083
+[2017.10.11-03.32.36:323][774]SourceControl: On branch master
+[2017.10.11-03.32.36:323][774]SourceControl: Your branch is up-to-date with 'origin/master'.
+[2017.10.11-03.32.36:323][774]SourceControl: Changes not staged for commit:
+[2017.10.11-03.32.36:323][774]SourceControl:   (use "git add <file>..." to update what will be committed)
+[2017.10.11-03.32.36:323][774]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.11-03.32.36:323][774]SourceControl: 	modified:   GitTest/Intermediate/CachedAssetRegistry.bin
+[2017.10.11-03.32.36:324][774]SourceControl: 	modified:   GitTest/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.11-03.32.36:324][774]SourceControl: 	modified:   GitTest/Saved/Logs/GitTest.log
+[2017.10.11-03.32.36:324][774]SourceControl: Untracked files:
+[2017.10.11-03.32.36:324][774]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.11-03.32.36:324][774]SourceControl: 	GitTest/Saved/Config/CrashReportClient/UE4CC-Windows-3E90F92A40AC4FFD606C2EBA15E1DFC3/
+[2017.10.11-03.32.36:324][774]SourceControl: 	GitTest/Saved/Logs/GitTest-backup-2017.10.11-16.32.03.log
+[2017.10.11-03.32.36:324][774]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.10.11-03.33.19:291][549]SourceControl: Error: fatal: Invalid path '/Game': No such file or directory
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.11-03.33.19:291][549]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.11-03.33.19:387][549]SourceControl: Error: error: cannot pull with rebase: You have unstaged changes.
+[2017.10.11-03.33.19:387][549]SourceControl: Error: error: please commit or stash them.
+[2017.10.11-03.33.19:390][549]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.19:390][549]MapCheck: New page: Map Check
+[2017.10.11-03.33.19:390][549]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.19:399][549]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.33.19:402][549]LoadErrors: New page: New Map
+[2017.10.11-03.33.19:405][549]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.19:405][549]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.33.19:405][549]LoadErrors: Error: /Game/NewMap : Can't find file for asset. /Game/NewMap_BuiltData
+[2017.10.11-03.33.19:406][549]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.19:406][549]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.33.19:408][549]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.19:408][549]LoadErrors: Failed to load /Game/NewMap_BuiltData.NewMap_BuiltData Referenced by PersistentLevel
+[2017.10.11-03.33.19:409][549]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading NULL.
+[2017.10.11-03.33.19:410][549]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.33.19:425][549]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.33.19:425][549]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.19:426][549]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.33.19:426][549]MapCheck: New page: Map Check
+[2017.10.11-03.33.19:426][549]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.19:435][549]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.33.19:454][549]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.33.19:490][549]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.179ms to complete.
+[2017.10.11-03.33.19:491][549]LogFileHelpers: Loading map 'NewMap' took 0.066
+[2017.10.11-03.33.45:421][175]SourceControl: Error: fatal: Invalid path '/Game': No such file or directory
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.11-03.33.45:421][175]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.11-03.33.45:516][175]SourceControl: Error: error: cannot pull with rebase: You have unstaged changes.
+[2017.10.11-03.33.45:516][175]SourceControl: Error: error: please commit or stash them.
+[2017.10.11-03.33.45:518][175]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.45:519][175]MapCheck: New page: Map Check
+[2017.10.11-03.33.45:519][175]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.45:528][175]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.33.45:532][175]LoadErrors: New page: New Map
+[2017.10.11-03.33.45:534][175]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.45:534][175]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.33.45:535][175]LoadErrors: Error: /Game/NewMap : Can't find file for asset. /Game/NewMap_BuiltData
+[2017.10.11-03.33.45:536][175]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.45:536][175]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.33.45:538][175]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.33.45:538][175]LoadErrors: Failed to load /Game/NewMap_BuiltData.NewMap_BuiltData Referenced by PersistentLevel
+[2017.10.11-03.33.45:538][175]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading NULL.
+[2017.10.11-03.33.45:539][175]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.33.45:555][175]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.33.45:555][175]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.45:556][175]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.33.45:556][175]MapCheck: New page: Map Check
+[2017.10.11-03.33.45:556][175]LightingResults: New page: Lighting Build
+[2017.10.11-03.33.45:565][175]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.33.45:583][175]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.33.45:620][175]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.106ms to complete.
+[2017.10.11-03.33.45:620][175]LogFileHelpers: Loading map 'NewMap' took 0.065
+[2017.10.11-03.34.03:484][919]SourceControl: Error: fatal: Invalid path '/Game': No such file or directory
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.11-03.34.03:484][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.11-03.34.03:591][919]SourceControl: Error: error: cannot pull with rebase: You have unstaged changes.
+[2017.10.11-03.34.03:591][919]SourceControl: Error: error: please commit or stash them.
+[2017.10.11-03.34.03:593][919]LightingResults: New page: Lighting Build
+[2017.10.11-03.34.03:594][919]MapCheck: New page: Map Check
+[2017.10.11-03.34.03:594][919]LightingResults: New page: Lighting Build
+[2017.10.11-03.34.03:602][919]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.34.03:605][919]LoadErrors: New page: New Map
+[2017.10.11-03.34.03:608][919]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.34.03:609][919]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.34.03:609][919]LoadErrors: Error: /Game/NewMap : Can't find file for asset. /Game/NewMap_BuiltData
+[2017.10.11-03.34.03:610][919]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.34.03:610][919]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap.
+[2017.10.11-03.34.03:612][919]LogLinker: Warning: Can't find file '/Game/NewMap_BuiltData'
+[2017.10.11-03.34.03:612][919]LoadErrors: Failed to load /Game/NewMap_BuiltData.NewMap_BuiltData Referenced by PersistentLevel
+[2017.10.11-03.34.03:612][919]LogLinker: Warning: Can't find file for asset '/Game/NewMap_BuiltData' while loading NULL.
+[2017.10.11-03.34.03:614][919]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.34.03:629][919]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.34.03:629][919]LightingResults: New page: Lighting Build
+[2017.10.11-03.34.03:630][919]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.34.03:630][919]MapCheck: New page: Map Check
+[2017.10.11-03.34.03:630][919]LightingResults: New page: Lighting Build
+[2017.10.11-03.34.03:640][919]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.34.03:657][919]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.34.03:693][919]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.506ms to complete.
+[2017.10.11-03.34.03:694][919]LogFileHelpers: Loading map 'NewMap' took 0.066
+[2017.10.11-03.34.06:597][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.10.11-03.34.11:845][889]Cmd: TRANSACTION UNDO
+[2017.10.11-03.34.11:845][889]LogEditorTransaction: Undo Move Actors
+[2017.10.11-03.34.11:858][889]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.11-03.34.19:238][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.11-03.34.19:280][740]LogSavePackage: Save=25.74ms
+[2017.10.11-03.34.19:280][740]LogSavePackage: Moving '../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Saved/NewMap889C210D49A9D113A6EE75877370AF08.tmp' to '../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap'
+[2017.10.11-03.34.19:283][740]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap
+[2017.10.11-03.34.21:450][997]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.11-03.34.35:934][997]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.11-03.34.35:966][997]SourceControl: [master 23ec525] 3rd box added from cloned project
+[2017.10.11-03.34.35:966][997]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.10.11-03.34.35:971][997]SourceControl: Commited [master 23ec525] 3rd box added from cloned project.
+[2017.10.11-03.36.11:799][997]LogActorFactory: Actor Factory created Cylinder
+[2017.10.11-03.36.12:464][ 75]LogActorFactory: Actor Factory created Cylinder
+[2017.10.11-03.36.19:547][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.11-03.36.19:578][914]LogSavePackage: Save=21.16ms
+[2017.10.11-03.36.19:578][914]LogSavePackage: Moving '../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Saved/NewMap9F63CE6C421FA40F92159E8DD0A75946.tmp' to '../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap'
+[2017.10.11-03.36.19:580][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap
+[2017.10.11-03.36.22:386][246]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/' is outside repository
+[2017.10.11-03.36.35:165][246]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.10.11-03.36.35:196][246]SourceControl: [master bb9bc08] added a cylinder from cloned project
+[2017.10.11-03.36.35:196][246]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.10.11-03.36.35:200][246]SourceControl: Commited [master bb9bc08] added a cylinder from cloned project.
