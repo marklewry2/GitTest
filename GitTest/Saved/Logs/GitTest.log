@@ -413,3 +413,60 @@ LogInit: Object subsystem initialized
 [2017.10.11-03.36.35:196][246]SourceControl: [master bb9bc08] added a cylinder from cloned project
 [2017.10.11-03.36.35:196][246]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2017.10.11-03.36.35:200][246]SourceControl: Commited [master bb9bc08] added a cylinder from cloned project.
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.11-03.39.17:242][752]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.11-03.39.21:191][752]SourceControl: Error: Cannot rebase: You have unstaged changes.
+[2017.10.11-03.39.21:191][752]SourceControl: Error: Please commit or stash them.
+[2017.10.11-03.39.21:191][752]SourceControl: Already up-to-date.
+[2017.10.11-03.39.21:194][752]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.21:195][752]MapCheck: New page: Map Check
+[2017.10.11-03.39.21:195][752]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.21:203][752]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.39.21:207][752]LoadErrors: New page: New Map
+[2017.10.11-03.39.21:214][752]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.39.21:230][752]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.39.21:230][752]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.21:231][752]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.39.21:231][752]MapCheck: New page: Map Check
+[2017.10.11-03.39.21:231][752]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.21:241][752]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.39.21:262][752]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.39.21:299][752]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.133ms to complete.
+[2017.10.11-03.39.21:300][752]LogFileHelpers: Loading map 'NewMap' took 0.070
+[2017.10.11-03.39.23:890][ 59]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.39.23:890][ 59]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.23:891][ 59]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.39.23:892][ 59]MapCheck: New page: Map Check
+[2017.10.11-03.39.23:892][ 59]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.23:907][ 59]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.39.23:909][ 59]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.39.23:934][ 59]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.39.23:970][ 59]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.812ms to complete.
+[2017.10.11-03.39.23:971][ 59]LogFileHelpers: Loading map 'NewMap' took 0.081
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/WorldGridMaterial.uasset' is outside repository
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/SM_Template_Map_Floor.uasset' is outside repository
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorBlueprintResources/StandardMacros.uasset' is outside repository
+[2017.10.11-03.39.52:822][346]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset' is outside repository
+[2017.10.11-03.39.52:927][346]SourceControl: Error: error: cannot pull with rebase: You have unstaged changes.
+[2017.10.11-03.39.52:927][346]SourceControl: Error: error: please commit or stash them.
+[2017.10.11-03.39.52:929][346]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.52:930][346]MapCheck: New page: Map Check
+[2017.10.11-03.39.52:930][346]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.52:938][346]LogAIModule: Creating AISystem for world Untitled
+[2017.10.11-03.39.52:941][346]LoadErrors: New page: New Map
+[2017.10.11-03.39.52:950][346]LogAIModule: Creating AISystem for world NewMap
+[2017.10.11-03.39.52:965][346]Cmd: MAP LOAD FILE="../../../../../../Users/mark/Documents/Unreal Projects/GitTest2/GitTest/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.11-03.39.52:965][346]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.52:966][346]LoadErrors: New page: Loading map: NewMap.umap
+[2017.10.11-03.39.52:966][346]MapCheck: New page: Map Check
+[2017.10.11-03.39.52:966][346]LightingResults: New page: Lighting Build
+[2017.10.11-03.39.52:976][346]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.11-03.39.52:994][346]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.11-03.39.53:029][346]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.44ms to complete.
+[2017.10.11-03.39.53:030][346]LogFileHelpers: Loading map 'NewMap' took 0.065
